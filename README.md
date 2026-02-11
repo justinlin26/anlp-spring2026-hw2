@@ -150,12 +150,13 @@ Finally, you will evaluate your systems on held-out test queries and submit your
 The final unseen test set (questions only) will be released the day before the assignment is due (Wednesday, February 25th).
 
 ### Public leaderboard
-We provide a [public leaderboard](https://huggingface.co/spaces/swzwan/ANLP_S26_Assignment2) based on a small set of queries. You may submit your system’s predictions (`dev_system_output.json`) to the leaderboard to receive an automatic score.
+We provide a [public leaderboard](https://huggingface.co/spaces/swzwan/ANLP_S26_Assignment2) based on a small set of queries. You may submit your system’s predictions in json to the leaderboard to receive an automatic score.
 
 For this leaderboard:
 - Only aggregate scores will be shown.
 - The reference answers will not be released.
 - You are limited to **at most 10 submissions** in total.
+- If you don't want your andrewid displayed, you can replace it with the nickname we assigned to you.
 
 The leaderboard is intended solely as a development and diagnostic tool. Scores on the leaderboard will **not** be used directly for grading.
 
@@ -163,7 +164,7 @@ The leaderboard is intended solely as a development and diagnostic tool. Scores 
 
 ```json
 {
-    "andrewid": <your Andrew ID>
+    "andrewid": <your Andrew ID or assigned nickname>
     "1": "Answer 1",
     "2": "Answer 2; Answer 3",
     ...
